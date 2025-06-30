@@ -1,0 +1,89 @@
+$ cd ..
+
+$ pwd
+C:\Users
+
+IIUI-Shell  ~/
+
+$ whoami
+libz4
+
+IIUI-Shell  ~/
+
+$ history
+ls
+ls
+echo hello > out.txt
+sleep 5&
+sleep 5 & jobs
+cd
+cd ..
+pwd
+whoami
+history
+
+$ help
+Available Commands:
+- cat        : Display file content (cat <file>). Supports piping (<cat file.txt | grep keyword>, <cat file.txt | sort | uniq>)
+- cd         : Change directory (cd <dir>) or go up (cd ..)
+- clear      : Clear the terminal screen
+- cp         : Copy a file (cp <source_file> <destination_file>)
+- date       : Show current date and time
+- disk       : Check Disk info: disk total | disk used | disk available
+- echo       : Print text or redirect: echo "text" > file (overwrite), echo "text" >> file (append), echo < file (read input)
+- exit       : Exit the shell
+- help       : Show help information
+- history    : Show command history
+- hostname   : Show desktop name
+- kill       : Kill a running process by name (kill <name>)
+- ls         : List files in current directory. Supports piping (<ls | grep <type>>)
+- mkdir      : Create a new directory (mkdir <dir>)
+- mv         : Move a file (mv <source_file> <destination_file>)
+- nano       : Open a file in nano editor (nano <file>)
+- open       : Open any file or application using the default program (open <file or app>)
+- pwd        : Print current working directory
+- ram        : Check RAM info: ram total | ram used | ram available
+- rm         : Remove a file (rm <file>)
+- rmdir      : Remove a directory (rmdir <dir>)
+- top        : List all running processes
+- touch      : Create an empty file (touch <file>)
+- whoami     : Show current user
+- jobs       : Jobs List all background jobs.
+- ps         : Display running processes (<ps aux>). Supports piping.(<ps aux | grep python)
+- sleep      : Pause execution for given duration in background (<sleep 5 &>)
+- |          : Usage: <cmd1> | <cmd2> Pipe output of one command as input to another.
+- &          : Usage: <command> & Run a command in the background.
+
+$ echo hello > out.txt
+
+$ ls
+.bash_history
+.eclipse
+.matplotlib
+.p2
+.vscode
+3D Objects
+AppData
+Application Data
+Contacts
+Documents
+Downloads
+eclipse-workspace
+Favorites
+IntelGraphicsProfiles
+Links
+Local Settings
+ls_parts
+Music
+
+$ foocomand
+IIUI-Shell: foocomand: command not found.
+Type 'help' to check valid commands.
+'foocomand' is not recognized as an internal or external command,
+operable program or batch file.
+
+$ sleep 5 &
+Usage: <command> & Run a command in the background.
+
+$ sleep 5 & jobs
+Type 'help' to check valid commands.

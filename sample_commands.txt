@@ -1,0 +1,45 @@
+# Sample Commands to Test the Custom Shell
+
+# File and Directory Commands
+ls
+ls | grep .py
+pwd
+cd ..
+mkdir test_folder
+rmdir test_folder
+touch file1.txt
+rm file1.txt
+cp source.txt copy.txt
+mv copy.txt moved.txt
+
+# File Content and Editing
+echo "Hello, Shell!" > hello.txt
+cat hello.txt
+cat hello.txt | grep Hello
+nano hello.txt
+
+# System Info
+date
+whoami
+hostname
+disk total
+disk used
+disk available
+ram total
+ram used
+ram available
+
+# Process Management
+ps aux
+ps aux | grep python
+top
+sleep 5 &
+jobs
+kill python
+
+# Miscellaneous
+open file1.txt
+clear
+history
+help
+exit
